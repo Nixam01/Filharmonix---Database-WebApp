@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeLeaf.org"
+      lang="pl">
+<head>
+    <link type="text/css" rel="stylesheet" href="/static/css/styles.css" th:href="@{/css/styles.css}"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+        Filharmonia (Nie) Narodowa
+    </title>
+</head>
+<a th:text="${info}"></a>
+<div id="error">
+    <h1> Wystąpił błąd</h1>
+    <form>
+        <input type="button" value="Powrót" onclick="history.back()">
+    </form>
+</div>
+
+
+</body>
+</html>
