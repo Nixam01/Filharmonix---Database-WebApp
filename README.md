@@ -1,2 +1,2 @@
-# BADA_projekt_cz2
+Project of a database with a dedicated web app.
 
